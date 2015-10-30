@@ -1,0 +1,264 @@
+Python HW7.5
+1. Output of alignments:
+
+A vs. B
+Matrix appears too big to display ...
+   1 a--t------------------------------gc-gt--g---ag-t---g-c---a------------------tc-t
+     atttggggaggcgagaggcgaggcgagggcgggagcagtgagaacagctggggccaggacggggggccgccgcgttttcgt
+      -- ------------------------------  -  -- ---  - --- - --- ------------------  - 
+
+  81 tc-c--a-t--------------------c--ca---------------------cg-t-------tg--gc--------c
+     tctcggactggagaggcgggagaccgcccctgcagtctgcgcgtgcgcgccgggtcgctgcgggcctgccgcttttaagac
+       - -- - -------------------- --  ---------------------  - -------  --  -------- 
+
+ 161 c--------------a------------g--gc-----tg------g-t----g-t--cca-g-a----t-----t-ggca
+     ctgatttttatttttatctgttttttccgcagcgtgagtgtatctcgatccacgttggccaggcaggtgtccagatcggca
+      -------------- ------------ --  -----  ------ - ---- - --   - - ---- ----- -    
+
+ 241 aatgcctgctgggagctctactgcctggaacacggcatccagcccgatggccagatgccaagtgacaagaccattggggga
+     aatgcctgctgggagctctattgcctggaacacggcattcagcccgatggccagatgccaagtgacaagaccattggggga
+                         *                 *                                          
+
+ 321 aggagatgactccttcaacaccttcttcagtgagacgggcgctggcaagcacgtgccccgggctgtgtttgtagacttgga
+     aggagatgactccttcaacaccttcttcagtgagacgggcgctggcaagcatgtgcccagggcagtgtttgtagacctgga
+                                                        *      *    *            *    
+
+ 401 aacccacagtcattgatgaagttcgcactggcacctaccgccagctcttccaccctgagcagctcatcacaggcaaggaag
+     agcccacagtcattgatgaagttcgcactggcacctaccgccagctcttccaccctgagcagctcatcacaggcaaggaag
+      *                                                                               
+
+ 481 gatgctgccaataactatgcccgagggcactacaccattggcaaggagatcattgaccttgtgttggaccgaattcgcaag
+     gatgctgccaataactatgcccgagggcactacaccattggcaaggagatcattgaccttgtcttggaccgaattcggaaa
+                                                                   *              *  *
+
+ 561 gctggctgaccagtgcaccggtcttcagggcttcttggttttccacagctttggtgggggaactggttctgggttcacctc
+     actggctgaccagtgcacgggtcttcagggcttcttggttttccacagctttggcgggggaactggttctgggttcacctc
+     *                 *                                   *                          
+
+ 641 ccctgctcatggaacgtctctcagttgattatggcaagaagtccaagctggagttctccatttacccagcaccccaggttt
+     ccctgctgatggaacgtctctctgtcgattatggcaagaagtccaagctagagttctccatctaccctgccccccaggtgt
+            *              *  *                       *           *     *  *        * 
+
+ 721 tccacagctgtagttgagccctacaactccatcctcaccacccacaccaccctggagcactctgattgtgccttcatggta
+     tccacagctgtagtagagccctacaactccatcctcaccacccacaccaccctggagcactctgattgtgccttcatggta
+                   *                                                                  
+
+ 801 agacaatgaggccatctatgacatctgtcgtagaaacctcgatatcgagcgcccaacctacactaaccttaaccgccttat
+     agacaatgaggccatctatgacatctgtcgtagaaaccttgatattgagcgcccaacctacactaacctcaaccgccttat
+                                            *     *                       *           
+
+ 881 ttagccagattgtgtcctccatcactgcttccctgagatttgatggagccctgaatgttgacctgacagaattccagacca
+     ttagccagattgtgtcctccatcactgcttccctcagatttgatggagccctgaatgtggatctgacggagttccagacca
+                                       *                       *  *     *  *          
+
+ 961 aacctggtgccctacccccgcatccacttccctctggccacatatgcccctgtcatctctgctgagaaagcctaccatgaa
+     aacctggtgccctatccccgcatccacttccctctggccacatatgcccctgtcatctctgctgagaaagcctaccatgaa
+                   *                                                                  
+
+1041 acagctttctgtagcagagatcaccaatgcttgctttgagccagccaaccagatggtgaaatgtgaccctcgccatggtaa
+     acagctttctgtagcagagatcaccaatgcatgctttgagccagccaaccagatggtgaaatgtgaccctcgccatggtaa
+                                   *                                                  
+
+1121 aatacatggcttgctgcctgttgtaccgtggtgacgtggttcccaaagatgtcaatgctgccattgccaccatcaaaacca
+     aatacatggcttgctgcctgttgtaccgtggtgacgtggttcccaaagatgtcaatgctgccattgccaccatcaagacca
+                                                                                 *    
+
+1201 aagcgcagcatccagtttgtggattggtgccccactggcttcaaggttggcatcaactaccagcctcccactgtggtgcct
+     aagcgcagcatccagtttgtagactggtgccccactggcttcaaagtgggcattaattaccagcctcccactgtggtaccc
+                         *  *                    *  *     *  *                    *  *
+
+1281 tggtggagacctggccaaggtacagagagctgtgtgcatgctgagcaacaccacagccattgctgaggcctgggctcgcct
+     cggtggagacctggccaaagtacagcgagctgtgtgcatgctgagcaacaccacagccattgctgaggcctgggctcgcct
+     *                 *      *                                                       
+
+1361 tggaccacaagtttgacctgatgtatgccaagcgtgcctttgttcactggtacgtgggtgaggggatggaggaaggcgagt
+     tggaccacaagtttgacctgatgtatgccaagcgtgcctttgttcactggtatgtgggtgagggcatggaggaaggagagt
+                                                         *           *           *    
+
+1441 ttttcagaggcccgtgaagatatggctgcccttgagaaggattatgaggaggttggtgtggattctgttgaaggagagggt
+     ttttctgaggcccgtgaggacatggctgccctggagaaggattatgaggaggttggtgtggattctgttgaaggagagggt
+          *           *  *           *                                                
+
+1521 tgaggaagaaggagaggaatactaa
+     tgaagaagaaggagaggaatactaa
+        *                     
+
+A vs C:
+Matrix appears too big to display ...
+   1 atgcgtgagtgcatctccatccacgttggccaggctggtgtccagattggcaatgcctgctgggagctctactgcctggaa
+     atgcgtgagtgcatctccatccacgttggccaggctggtgtccagatcggcaatgcctgctgggagctctactgcctggaa
+                                                    *                                 
+
+  81 acacggcatccagcccgatggccagatgccaagtgacaagaccattgggggaggagatgactccttcaacaccttcttcag
+     acatggcatccagcctgatggccagatgccaagtgacaagaccattgggggaggagatgactccttcaacaccttcttcag
+        *           *                                                                 
+
+ 161 gtgagacgggcgctggcaagcacgtgccccgggctgtgtttgtagacttggaacccacagtcattgatgaagttcgcactg
+     gtgagacaggagctggcaagcatgtgccccgggcagtgttcgtagacctggaacccacggtcatcgatgaagttcgcaccg
+            *  *           *           *     *      *          *     *              * 
+
+ 241 ggcacctaccgccagctcttccaccctgagcagctcatcacaggcaaggaagatgctgccaataactatgcccgagggcac
+     ggcacctaccgccagctcttccatcctgagcagctcatcacaggcaaggaggatgctgccaataactatgcccgtggccac
+                            *                          *                       *  *   
+
+ 321 ctacaccattggcaaggagatcattgaccttgtgttggaccgaattcgcaagctggctgaccagtgcaccggtcttcaggg
+     ctacaccattggcaaggagatcattgaccttgtcctggacaggattcgcaagctggctgaccagtgcacaggtctccaggg
+                                      **     * *                          *     *     
+
+ 401 gcttcttggttttccacagctttggtgggggaactggttctgggttcacctccctgctcatggaacgtctctcagttgatt
+     gcttcttggttttccacagctttggtgggggaactggctctggcttcacctccctgctgatggagcggctctctgtggatt
+                                          *     *              *     *  *     *  *    
+
+ 481 tatggcaagaagtccaagctggagttctccatttacccagcaccccaggtttccacagctgtagttgagccctacaactcc
+     tacggaaagaagtccaagctggagttctccatttacccagccccccaggtttccactgctgtggttgagccctacaattcc
+       *  *                                   *              *     *              *   
+
+ 561 catcctcaccacccacaccaccctggagcactctgattgtgccttcatggtagacaatgaggccatctatgacatctgtcg
+     catcctcaccacccacaccaccctggagcactctgattgtgccttcatggtagacaatgaggccatctatgacatctgtcg
+                                                                                      
+
+ 641 gtagaaacctcgatatcgagcgcccaacctacactaaccttaaccgccttattagccagattgtgtcctccatcactgctt
+     gtagaaacctcgacattgagcgcccaacctacaccaaccttaaccgccttattagccagattgtgtcttccatcactgctt
+                  *  *                 *                                *             
+
+ 721 tccctgagatttgatggagccctgaatgttgacctgacagaattccagaccaacctggtgccctacccccgcatccacttc
+     tccctcagatttgatggggccctgaatgttgatctgacagaattccagaccaacctggtaccctaccctcgcatccacttc
+          *           *              *                          *        *            
+
+ 801 ccctctggccacatatgcccctgtcatctctgctgagaaagcctaccatgaacagctttctgtagcagagatcaccaatgc
+     ccctctggccacttatgcccctgtcatctctgctgagaaagcctaccatgagcagctttctgtagcagagatcaccaatgc
+                 *                                      *                             
+
+ 881 cttgctttgagccagccaaccagatggtgaaatgtgaccctcgccatggtaaatacatggcttgctgcctgttgtaccgtg
+     cctgctttgagccagccaaccagatggtgaaatgtgaccctcgccatggtaaatacatggcttgctgcctgctataccgtg
+      *                                                                     * *       
+
+ 961 ggtgacgtggttcccaaagatgtcaatgctgccattgccaccatcaaaaccaagcgcagcatccagtttgtggattggtgc
+     ggtgatgtggttcccaaagatgtcaatgctgccattgccaccatcaagaccaagcgcagcatccagtttgtagactggtgc
+          *                                         *                       *  *      
+
+1041 ccccactggcttcaaggttggcatcaactaccagcctcccactgtggtgcctggtggagacctggccaaggtacagagagc
+     ccccactggcttcaaggttggcattaattaccagcctcccactgtggtacccggtggtgacctggccaaggtgcagagagc
+                             *  *                    *  *     *              *        
+
+1121 ctgtgtgcatgctgagcaacaccacagccattgctgaggcctgggctcgcctggaccacaagtttgacctgatgtatgcca
+     ctgtgtgcatgctgagcaacaccacagccattgctgaggcctgggctcgcctagatcacaagtttgatctgatgtatgcca
+                                                         *  *           *             
+
+1201 aagcgtgcctttgttcactggtacgtgggtgaggggatggaggaaggcgagttttcagaggcccgtgaagatatggctgcc
+     aagcgtgcctttgtgcactggtatgtgggtgagggcatggaggagggtgagttctctgaggcccgtgaggacatggctgcc
+                   *        *           *        *  *     *  *           *  *         
+
+1281 ccttgagaaggattatgaggaggttggtgtggattctgttgaaggagagggtgaggaagaaggagaggaatactaa
+     cctagagaaggattatgaggaggttggtgtggattctgtggaaggcgagggggaggaagaaggagaggagtactaa
+        *                                   *     *     *                 *      
+
+B vs C:
+Matrix appears too big to display ...
+   1 atttggggaggcgagaggcgaggcgagggcgggagcagtgagaacagctggggccaggacggggggccgccgcgttttcgt
+     a--t------------------------------gc-gt--g---ag-t---g-c---a----------------------
+      -- ------------------------------  -  -- ---  - --- - --- ----------------------
+
+  81 tctcggactggagaggcgggagaccgcccctgcagtctgcgcgtgcgcgccgggtcgctgcgggcctgccgcttttaagac
+     --t----ct--------------------c--ca--------------------------------t--c-c-------ac
+     -- ----  -------------------- --  -------------------------------- -- - -------  
+
+ 161 ctgatttttatttttatctgttttttccgcagcgtgagtgtatctcgatccacgttggccaggcaggtgtccagatcggca
+     c-g-------------t-tg--------gc--c---a--g------g-----c--t---------ggtgtccagatcggca
+      - ------------- -  --------  -- --- -- ------ ----- -- ---------                
+
+ 241 aatgcctgctgggagctctattgcctggaacacggcattcagcccgatggccagatgccaagtgacaagaccattggggga
+     aatgcctgctgggagctctactgcctggaacatggcatccagcctgatggccagatgccaagtgacaagaccattggggga
+                         *           *     *     *                                    
+
+ 321 aggagatgactccttcaacaccttcttcagtgagacgggcgctggcaagcatgtgcccagggcagtgtttgtagacctgga
+     aggagatgactccttcaacaccttcttcagtgagacaggagctggcaagcatgtgccccgggcagtgttcgtagacctgga
+                                         *  *                  *          *           
+
+ 401 agcccacagtcattgatgaagttcgcactggcacctaccgccagctcttccaccctgagcagctcatcacaggcaaggaag
+     aacccacggtcatcgatgaagttcgcaccggcacctaccgccagctcttccatcctgagcagctcatcacaggcaaggagg
+      *     *     *              *                       *                          * 
+
+ 481 gatgctgccaataactatgcccgagggcactacaccattggcaaggagatcattgaccttgtcttggaccgaattcggaaa
+     gatgctgccaataactatgcccgtggccactacaccattggcaaggagatcattgaccttgtcctggacaggattcgcaag
+                            *  *                                    *     * *     *  *
+
+ 561 actggctgaccagtgcacgggtcttcagggcttcttggttttccacagctttggcgggggaactggttctgggttcacctc
+     gctggctgaccagtgcacaggtctccagggcttcttggttttccacagctttggtgggggaactggctctggcttcacctc
+     *                 *     *                             *           *     *        
+
+ 641 ccctgctgatggaacgtctctctgtcgattatggcaagaagtccaagctagagttctccatctaccctgccccccaggtgt
+     ccctgctgatggagcggctctctgtggattacggaaagaagtccaagctggagttctccatttacccagccccccaggttt
+                  *  *        *     *  *              *           *     *           * 
+
+ 721 tccacagctgtagtagagccctacaactccatcctcaccacccacaccaccctggagcactctgattgtgccttcatggta
+     tccactgctgtggttgagccctacaattccatcctcaccacccacaccaccctggagcactctgattgtgccttcatggta
+          *     *  *           *                                                      
+
+ 801 agacaatgaggccatctatgacatctgtcgtagaaaccttgatattgagcgcccaacctacactaacctcaaccgccttat
+     agacaatgaggccatctatgacatctgtcgtagaaacctcgacattgagcgcccaacctacaccaaccttaaccgccttat
+                                            *  *                    *     *           
+
+ 881 ttagccagattgtgtcctccatcactgcttccctcagatttgatggagccctgaatgtggatctgacggagttccagacca
+     ttagccagattgtgtcttccatcactgcttccctcagatttgatggggccctgaatgttgatctgacagaattccagacca
+                     *                             *           *        *  *          
+
+ 961 aacctggtgccctatccc-cgcatccacttccctctggccacatatgcccctgtcatctctgctgagaaagcctaccatga
+     aacctggtacccta-ccctcgcatccacttccctctggccacttatgcccctgtcatctctgctgagaaagcctaccatga
+             *     -   -                       *                                      
+
+1041 aacagctttctgtagcagagatcaccaatgcatgctttgagccagccaaccagatggtgaaatgtgaccctcgccatggta
+     agcagctttctgtagcagagatcaccaatgcctgctttgagccagccaaccagatggtgaaatgtgaccctcgccatggta
+      *                             *                                                 
+
+1121 aaatacatggcttgctgcctgttgtaccgtggtgacgtggttcccaaagatgtcaatgctgccattgccaccatcaagacc
+     aaatacatggcttgctgcctgctataccgtggtgatgtggttcccaaagatgtcaatgctgccattgccaccatcaagacc
+                          * *           *                                             
+
+1201 caagcgcagcatccagtttgtagactggtgccccactggcttcaaagtgggcattaattaccagcctcccactgtggtacc
+     caagcgcagcatccagtttgtagactggtgccccactggcttcaaggttggcattaattaccagcctcccactgtggtacc
+                                                  *  *                                
+
+1281 ccggtggagacctggccaaagtacagcgagctgtgtgcatgctgagcaacaccacagccattgctgaggcctgggctcgcc
+     ccggtggtgacctggccaaggtgcagagagctgtgtgcatgctgagcaacaccacagccattgctgaggcctgggctcgcc
+            *           *  *   *                                                      
+
+1361 ctggaccacaagtttgacctgatgtatgccaagcgtgcctttgttcactggtatgtgggtgagggcatggaggaaggagag
+     ctagatcacaagtttgatctgatgtatgccaagcgtgcctttgtgcactggtatgtgggtgagggcatggaggagggtgag
+       *  *           *                          *                             *  *   
+
+1441 gttttctgaggcccgtgaggacatggctgccctggagaaggattatgaggaggttggtgtggattctgttgaaggagaggg
+     gttctctgaggcccgtgaggacatggctgccctagagaaggattatgaggaggttggtgtggattctgtggaaggcgaggg
+        *                             *                                   *     *     
+
+1521 gtgaagaagaaggagaggaatactaa
+     gggaggaagaaggagaggagtactaa
+      *  *              *      
+
+None
+
+2.percent_id function:
+
+def percent_id(aln_seq1,aln_seq2):
+    i_score=0
+    t=len(aln_seq1)
+    for i in range(len(aln_seq1)):        #len(aln_seq1)=len(aln_seq2)
+        if aln_seq1[i]==aln_seq2[i]:
+            i_score+=1
+    print (float(i_score)/float(t))*100   #This function is based on all previous functions, I have attached the whole .py file as well.
+
+
+
+
+
+
+3.percent_id score:
+A vs B : 84.5307443366
+A vs C : 94.395280236
+B vs C : 82.8589909444
+
+
+4. Based on the percent_id scores, A and C has the highest identity percent score, thus A and C might be the most closely related
+
+
+5. They are all from Homo sapiens, and they are all part of Homo sapiens tubulin, alpha 1b (TUBA1B), mRNA.They undergo different RNA splicing process, have different intron spliced and different exon joined together, thus might result in the difference in percent identity.
